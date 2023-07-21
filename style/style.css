@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header svg{
+  height: 100px;
+  width: 150px;
+  fill: white;
+  margin: 30px 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+
+}
+nav a{
+    font-size: larger;
+    color: white;
+}
+nav a:hover{
+    color: orangered;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166))
+}
+.main section{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+#image{
+    height: 600px;
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* border: 2px solid yellow;    */
+}
+
+#image svg{
+    height: 600px;
+    width: 100%;
+    margin: 100px 0px;
+    /* border: 2px solid yellowgreen; */
+}
+#image img{
+    position: absolute;
+    height: auto;
+    width: 270px;
+    margin: 150px 10px ;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    row-gap: 30px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+#content h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+button a{
+    color: black;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.article{
+    height: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#title{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+}
+#title p{
+    font-size: 45px;
+    font-weight: 700;
+}
+#pic-para{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#pic-para-temp{
+   height: 95%;
+   width: 85%;
+   /* border: 2px solid black; */
+}
+#pic-para-temp ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+}
+#pic-para-temp ul li{
+    height:210px;
+    width: 510px;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+#pic{
+    height: 100px;
+    width: 150px;
+    background-repeat: round;
+    /* border: 2px solid yellow; */
+}
+.pic1{
+    background: url(https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57);
+}
+.pic2{
+     background: url(https://i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66);
+}
+.pic3{
+     background: url(https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d);
+}
+.pic4{
+     background: url(https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc);
+}
+
+#para{
+    height: 100%;
+    width: 100%;
+    padding: 20px 25px;
+    /* border: 2px solid red; */
+}
+#para h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+#para h6{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.banner p{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.about-spotify{
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+#giude{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+#giude-line{
+    width: 80%;   
+    /* border: 2px solid red; */
+}
+
+#giude-line li{
+    height: 100;
+    width: 100%;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+}
+#giude-line summary:hover{
+    background-color: rgba(141, 241, 241, 0.281);
+}
+summary{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+details p{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 10px;
+}
+span{
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+.banner2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.banner2 h1{
+    font-size:80px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.footer{
+    height: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#footer-outline{
+    height: 95%;
+    width: 80%;
+    padding-top: 80px;
+}
+#footer-top{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-logo{
+    padding: 20px 20px;
+}
+#footer-logo svg{
+    height: 150px;
+    width: 150px;
+}
+#footer-links{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.links{
+   height: 100%;
+   width: 180px;
+}
+dt{
+    color: rgba(247, 247, 241, 0.658);
+    font-weight: bolder;
+    padding: 40px 20px;
+}
+dd{
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+dd a{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#social-icon{
+    width:  23.5%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-icon ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-icon li{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    background-color:rgb(248, 240, 240);
+}
+.icon-sizing{
+    height: 60px;
+    width: 60px;
+}
+
+#footer-bottom{
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    
+}
+#footer-bottom ul{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+#footer-bottom li a{
+    font-size: 12px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.473);
+}
+#footer-bottom li a:hover{
+    color:rgba(255, 166, 0, 0.849)
+}
+#footer-bottom span{
+    height: 50px;
+    width: 40%;
+    font-size: 12px;
+    text-align: end;
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.473);
+   
+}
+
